@@ -1,4 +1,4 @@
-package main
+package services
 
 import (
 	"github.com/stretchr/testify/assert"
@@ -6,9 +6,9 @@ import (
 )
 
 func TestGetMessage(t *testing.T) {
-	messageExpected := "Itss Alaiiiiiivvv!"
+	messageExpected := "Aii Carammbaaa"
 
 	result := GetMessage()
 
-	assert.Equal(t, result, messageExpected)
+	assert.Equal(t, messageExpected, result)
 }

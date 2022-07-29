@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"poc-sonar/services"
+)
 
 func main() {
-	message := GetMessage()
+	message := services.GetMessage()
 	fmt.Println(message)
 }
